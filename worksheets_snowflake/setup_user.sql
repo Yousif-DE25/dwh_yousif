@@ -1,5 +1,0 @@
-USE ROLE USERADMIN;
-
-CREATE USER IF NOT EXISTS extract_loader
-    PASSWORD = 'Password123' 
-    DEFAULT_WAREHOUSE = dev_wh;
